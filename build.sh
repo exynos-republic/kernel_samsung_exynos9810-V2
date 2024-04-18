@@ -1,5 +1,6 @@
 PATH="/home/oberdfr/toolchains/proton-clang/bin:${PATH}" \
 make -j16 \
+	O=out \
  	ARCH=arm64 \
 	CC=clang \
  	LD=ld.lld \
